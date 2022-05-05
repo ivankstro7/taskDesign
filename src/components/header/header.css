@@ -1,3 +1,72 @@
+*:root{
+    --primary-background: #20232A;
+    --secundary-background: #16181D;
+    --background-body: #1B1C31;
+    --primary-color: #61DAFB;
+    --white: #fff;
+    --small-color: #999999;
+    --gray: #7C859B;
+    --stroke: #000;
+}
+
 header{
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px;
+    background-color: var(--primary-background);
+}
+
+header .header-user{
+    display: flex;
+    align-items: center;
+}
+
+header .header-user .header-body{
+    margin-left: 16px;
+}
+
+header .header-user .header-body small{
+    font-weight: 300;
+    color: var(--small-color);
+}
+
+header .header-user .header-body p{
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--white);
+    margin: 0;
+}
+
+header .header-detail{
+    display: flex;
+    align-items: center;
+}
+
+header .header-detail .detail-item{
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+
+header .header-detail .detail-item:last-child{
+    margin-right: 0;
+}
+
+header .header-detail .detail-item .item-body{
+    margin-right: 8px;
+    text-align: end;
+}
+
+header .header-detail .detail-item .item-body small, header .header-detail .detail-item .item-body p{
+    margin: 0;
+}
+
+header .header-detail .detail-item .item-body small{
+    font-weight: 300;
+    color: var(--small-color);
+}
+
+header .header-detail .detail-item .item-body p{
+    font-size: 0.875rem;
+    color: var(--white);
 }
