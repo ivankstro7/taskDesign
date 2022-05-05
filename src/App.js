@@ -1,4 +1,5 @@
 import React from "react";
+import { Header } from './components/header/header';
 import { TodoCounter } from './components/TodoList/TodoCounter';
 import { TodoSearch } from './components/TodoList/TodoSearch';
 import { TodoList } from './components/TodoList/TodoList';
@@ -15,6 +16,7 @@ const todos = [
 function App() {
   return (
     <React.Fragment>
+      <Header />
       <TodoCounter />
       <TodoSearch />
 
