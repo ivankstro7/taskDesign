@@ -1,9 +1,9 @@
 import React from "react";
-import { TodoCounter } from './TodoCounter';
-import { TodoSearch } from './TodoSearch';
-import { TodoList } from './TodoList';
-import { TodoItem } from './TodoItem';
-import { CreateTodoButton } from './CreateTodoButton';
+import { TodoCounter } from './components/TodoList/TodoCounter';
+import { TodoSearch } from './components/TodoList/TodoSearch';
+import { TodoList } from './components/TodoList/TodoList';
+import { TodoItem } from './components/TodoList/TodoItem';
+import { CreateTodoButton } from './components/TodoList/CreateTodoButton';
 // import './App.css';
 
 const todos = [
