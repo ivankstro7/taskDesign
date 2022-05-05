@@ -1,5 +1,8 @@
 import React from 'react';
 import logo from '../../images/icon-react.svg';
+import iconLevel from '../../images/level.svg';
+import iconTime from '../../images/time.svg'
+import userPhoto from '../../images/teacher.png'
 import './header.css';
 
 function Header() {
@@ -13,26 +16,26 @@ function Header() {
         </div>
       </div>
       <div className='header-detail'>
-        <div className='detail-level'>
-          <img src={logo} alt="logo"/>
-          <div className='level-body'>
+        <div className='detail-item'>
+          <div className='item-body'>
             <small>level</small>
             <p>Basic</p>
           </div>
+          <img src={iconLevel} alt="icon level"/>
         </div>
-        <div className='detail-content'>
-          <img src={logo} alt="logo"/>
-          <div className='content-body'>
+        <div className='detail-item'>
+          <div className='item-body'>
             <small>Content</small>
             <p>5 hours of content</p>
           </div>
+          <img src={iconTime} alt="icon time"/>
         </div>
-        <div className='detail-teacher'>
-          <img src={logo} alt="logo"/>
-          <div className='content-body'>
+        <div className='detail-item'>
+          <div className='item-body'>
             <small>Instructed by:</small>
             <p>Juan David Castro</p>
-          </div>
+          </div>        
+          <img src={userPhoto} alt="user photo"/>
         </div>
       </div>
     </header>
