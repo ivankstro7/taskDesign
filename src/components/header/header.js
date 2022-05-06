@@ -3,6 +3,7 @@ import logo from '../../images/icon-react.svg';
 import iconLevel from '../../images/level.svg';
 import iconTime from '../../images/time.svg'
 import userPhoto from '../../images/teacher.png'
+import arrow from '../../images/arrow.svg'
 import './header.css';
 
 function Header() {
@@ -48,6 +49,7 @@ function Header() {
           <li className='list-group-item'>
             <a href='https://platzi.com/web/'>Escuela de Desarrollo Web</a>
           </li>
+          <img src={arrow} alt="arrow"/>
           <li className='list-group-item'>
             <a href='https://platzi.com/cursos/react/'>Curso de Introducción a React.js</a>
           </li>
