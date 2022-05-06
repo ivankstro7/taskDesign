@@ -18,7 +18,11 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-      <Title/>
+      <Title
+        text='Task list with css in react.js'
+        paragraph='¡Aprende React.js, la librería más popular de JavaScript para crear aplicaciones web interactivas! 
+        Trabaja con componentes, propiedades, estado y efectos.'    
+      />
       <TodoCounter />
       <TodoSearch />
 

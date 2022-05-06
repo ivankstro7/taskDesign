@@ -1,0 +1,35 @@
+*:root{
+    --primary-background: #20232A;
+    --secundary-background: #16181D;
+    --background-body: #1B1C31;
+    --primary-color: #61DAFB;
+    --white: #fff;
+    --small-color: #999999;
+    --gray: #7C859B;
+    --stroke: #000;
+}
+
+.container-title{
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 36px 0 24px;
+}
+
+.container-title .title-heading{
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.container-title .title-heading h1{
+    font-size: 1.5rem;
+    color: var(--white);
+    margin: 0 0 0 12px;
+}
+
+.container-title p{
+    font-size: 1rem;
+    color: var(--gray);
+    margin: 0;
+}
+
