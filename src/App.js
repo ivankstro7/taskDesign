@@ -1,5 +1,6 @@
 import React from "react";
 import { Header } from './components/header/header';
+import { Title } from './components/Title/Title';
 import { TodoCounter } from './components/TodoList/TodoCounter';
 import { TodoSearch } from './components/TodoList/TodoSearch';
 import { TodoList } from './components/TodoList/TodoList';
@@ -17,6 +18,7 @@ function App() {
   return (
     <React.Fragment>
       <Header />
+      <Title/>
       <TodoCounter />
       <TodoSearch />
 
