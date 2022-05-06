@@ -70,3 +70,32 @@ header .header-detail .detail-item .item-body p{
     font-size: 0.875rem;
     color: var(--white);
 }
+
+.breadcrumd {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secundary-background);
+    padding: 8px 24px;
+}
+
+.breadcrumd .breadcrumd-title p{
+    font-size: 00.875rem;
+    color: var(--white);
+    margin: 0;
+}
+
+.breadcrumd .list-group{
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.breadcrumd .list-group .list-group-item a{
+    font-size: 00.875rem;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.breadcrumd .list-group img{
+    margin: 0 8px;
+}
