@@ -1,9 +1,13 @@
 import React from 'react';
-// import './TodoSearch.css';
+import iconSearch from '../../images/Icon__Search.svg'
+import './TodoSearch.css';
 
 function TodoSearch() {
   return (
-    <input className="TodoSearch" type="search" placeholder="Buscar tarea" />
+    <div className='search-task'>
+      <img src={iconSearch} alt="logo"/>
+      <input className="TodoSearch" type="search" placeholder="Search task" />
+    </div>    
   );
 }
 

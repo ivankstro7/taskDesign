@@ -1,0 +1,9 @@
+@import url(../colors.css);
+
+.container-task{
+    width: 100%;
+    max-width: 673px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: var(--background-task);
+}

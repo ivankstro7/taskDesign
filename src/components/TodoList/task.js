@@ -3,6 +3,7 @@ import { HeaderTask } from './HeaderTask';
 import { TodoSearch } from './TodoSearch';
 import { TodoList } from './TodoList';
 import { TodoItem } from './TodoItem';
+import './task.css';
 
 const todos = [
   { text: 'Take course intro to react.js', completed: true },

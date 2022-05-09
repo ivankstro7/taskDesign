@@ -1,0 +1,6 @@
+@import url(../colors.css);
+
+.container-task .list-group-task{
+    list-style: none;
+    padding: 0 16px 16px;
+}

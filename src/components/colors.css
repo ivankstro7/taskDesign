@@ -1,0 +1,12 @@
+*:root{
+    --primary-background: #20232A;
+    --secundary-background: #16181D;
+    --background-body: #1B1C31;
+    --background-task: #282C34;
+    --primary-color: #61DAFB;
+    --white: #fff;
+    --small-color: #999999;
+    --gray: #7C859B;
+    --stroke: #000;
+    --divider: #E6ECF0;
+}

@@ -1,17 +1,8 @@
-*:root{
-    --primary-background: #20232A;
-    --secundary-background: #16181D;
-    --background-body: #1B1C31;
-    --primary-color: #61DAFB;
-    --white: #fff;
-    --small-color: #999999;
-    --gray: #7C859B;
-    --stroke: #000;
-}
+@import url(../colors.css);
 
 .container-title{
     width: 100%;
-    max-width: 640px;
+    max-width: 673px;
     margin: 0 auto;
     padding: 36px 0 24px;
 }

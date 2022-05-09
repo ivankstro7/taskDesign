@@ -1,0 +1,33 @@
+@import url(../colors.css);
+
+.container-task .header-task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: var(--primary-background);
+}
+
+.container-task .header-task .task-title h2{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--white);
+    margin:0;
+}
+
+.container-task .header-task .task-title p{
+    font-size: 1rem;
+    color: var(--gray);
+    margin:0;
+}
+
+.container-task .header-task button{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}

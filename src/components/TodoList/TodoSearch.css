@@ -1,0 +1,28 @@
+@import url(../colors.css);
+
+.container-task .search-task{
+    width: 100%;
+    max-width: 640px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin: 16px auto;
+    border-radius: 4px;
+    background-color: var(--primary-background);
+    border: 1px solid var(--stroke);
+}
+
+.container-task .search-task img{
+    margin: 0 8px 0 16px;
+}
+
+.container-task .search-task input{
+    width: 572px;
+    color: var(--white);
+    background: transparent;
+    border: none;
+}
+
+.container-task .search-task input:focus-visible{
+    outline: none;
+}

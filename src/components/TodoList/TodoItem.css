@@ -1,0 +1,62 @@
+@import url(../colors.css);
+
+.container-task .list-group-task .list-group-item{
+    width: 640px;
+    display: flex;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--divider);
+}
+
+.container-task .list-group-task .list-group-item:last-child{
+    margin-bottom: 0;
+}
+
+.container-task .list-group-task .list-group-item .radio-button-unchecked{
+    width: 24px;
+    height: 24px;
+    background-image: url(../../images/radio_button_unchecked.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.container-task .list-group-task .list-group-item .radio-button-checked{
+    background-image: url(../../images/check_circle.svg);
+}
+
+.container-task .list-group-task .list-group-item .item-body{
+    width: 594px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-bottom: 16px;
+}
+
+.container-task .list-group-task .list-group-item .item-body img{
+    cursor: pointer;
+}
+
+.container-task .list-group-task .list-group-item .item-body .body-title .item-description{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--white);
+    margin: 0;
+}
+
+.container-task .list-group-task .list-group-item .item-body .body-title .item-description-checked{
+    text-decoration: line-through;
+}
+
+.container-task .list-group-task .list-group-item .item-body .body-title .item-user{
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.container-task .list-group-task .list-group-item .item-body .body-title .item-user p{
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--gray);
+    margin-top: 0;
+    margin-left: 8px;
+    margin-bottom: 0;
+}

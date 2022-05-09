@@ -1,6 +1,6 @@
 import React from 'react';
 import iconAdd from '../../images/add.svg';
-import './TodoCounter.css';
+import './headerTask.css';
 
 function HeaderTask(props) {
   return (
