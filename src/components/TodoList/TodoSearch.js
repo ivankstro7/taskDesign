@@ -3,7 +3,7 @@ import React from 'react';
 
 function TodoSearch() {
   return (
-    <input className="TodoSearch" placeholder="Buscar tarea" />
+    <input className="TodoSearch" type="search" placeholder="Buscar tarea" />
   );
 }
 
