@@ -1,28 +1,41 @@
 @import url(../colors.css);
 
-.container-task .search-task{
+.container-task .container-search{
+    padding: 16px;
+}
+.container-task .container-search .search-task{
     width: 100%;
     max-width: 640px;
     height: 40px;
     display: flex;
     align-items: center;
-    margin: 16px auto;
     border-radius: 4px;
     background-color: var(--primary-background);
     border: 1px solid var(--stroke);
 }
 
-.container-task .search-task img{
+.container-task .container-search .search-task img{
     margin: 0 8px 0 16px;
 }
 
-.container-task .search-task input{
+.container-task .container-search .search-task input{
     width: 572px;
     color: var(--white);
     background: transparent;
     border: none;
 }
 
-.container-task .search-task input:focus-visible{
+.container-task .container-search .search-task input:focus-visible{
     outline: none;
+}
+
+.container-task .container-search p{
+    font-size: 0.875rem;
+    color: var(--gray);
+    margin-bottom: 0;
+}
+
+.container-task .container-search p span{
+    color: var(--white);
+    margin-left: 8px;
 }
