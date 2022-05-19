@@ -9,6 +9,7 @@ function TodoProvider (props) {
     saveItem: saveTodos,
     loading,
     error,
+    onChangeUser,
   } = useLocalStorage('TODOS_V1', []);
   const [searchValue, setSearchValue] = React.useState('');
   const [openModal, setOpenModal] = React.useState(false);
@@ -33,6 +34,7 @@ function TodoProvider (props) {
     newTodos.push({
       completed: false,
       text,
+      onChangeUser,
     });
     saveTodos(newTodos);
   };

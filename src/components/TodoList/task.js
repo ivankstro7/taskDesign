@@ -17,6 +17,7 @@ function TaskContainer() {
     deleteTodo,
     openModal,
     setOpenModal,
+    onChangeUser,
   } = React.useContext(TodoContext);
   return (
     <div className='container-task'>
@@ -34,6 +35,7 @@ function TaskContainer() {
             key={todo.text}
             text={todo.text}                
             user='ivan castro'
+            onChangeUser={onChangeUser}
             completed={todo.completed}
             onComplete={() => completeTodo(todo.text)}
             onDelete={() => deleteTodo(todo.text)}
