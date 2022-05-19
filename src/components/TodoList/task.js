@@ -4,6 +4,7 @@ import { HeaderTask } from './HeaderTask';
 import { TodoSearch } from './TodoSearch';
 import { TodoList } from './TodoList';
 import { TodoItem } from './TodoItem';
+import {Modal} from "../../modal/modal"
 import './task.css';
 
 function TaskContainer() {
@@ -13,10 +14,14 @@ function TaskContainer() {
     searchedTodos,
     completeTodo,
     deleteTodo,
+    openModal,
+    setOpenModal,
   } = React.useContext(TodoContext);
   return (
     <div className='container-task'>
-      <HeaderTask/>
+      <HeaderTask
+        setOpenModal={setOpenModal}
+      />
       <TodoSearch/>      
       <TodoList>
         {error && <p>Desespérate, hubo un error...</p>}
@@ -34,6 +39,11 @@ function TaskContainer() {
           />
         ))}
       </TodoList>
+      {!!openModal && (
+        <Modal>
+          <p>prueba modal</p>
+        </Modal>
+      )}
     </div>
   );
 }

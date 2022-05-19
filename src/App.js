@@ -2,7 +2,7 @@ import React from "react";
 import { Header } from './components/header/header';
 import { Title } from './components/Title/Title';
 import { TaskContainer } from './components/TodoList/task';
-import { TodoContext, TodoProvider } from "./todoContext";
+import { TodoProvider } from "./todoContext";
 // import './App.css';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       />
       <TodoProvider>
         <TaskContainer />
-      </TodoProvider> 
+      </TodoProvider>
     </React.Fragment>
   );
 }
