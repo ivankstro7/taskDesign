@@ -4,7 +4,8 @@ import { HeaderTask } from './HeaderTask';
 import { TodoSearch } from './TodoSearch';
 import { TodoList } from './TodoList';
 import { TodoItem } from './TodoItem';
-import {Modal} from "../../modal/modal"
+import { Modal } from "../modal/modal";
+import { FormModal } from '../modal/form';
 import './task.css';
 
 function TaskContainer() {
@@ -41,7 +42,7 @@ function TaskContainer() {
       </TodoList>
       {!!openModal && (
         <Modal>
-          <p>prueba modal</p>
+          <FormModal/>
         </Modal>
       )}
     </div>

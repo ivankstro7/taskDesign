@@ -1,0 +1,65 @@
+@import url(../colors.css);
+
+.form-modal{
+    width: 500px;
+    background-color: var(--primary-background);
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.form-modal h3{
+    color: var(--white);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.form-modal .form-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.form-modal .form-input label{
+    font-size: 0.75rem;
+    color: var(--white);
+    margin-bottom: 8px;
+}
+
+.form-modal .form-input input, .form-modal .form-input textarea{
+    color: var(--white);
+    border-radius: 4px;
+    background-color: var(--secundary-background);
+    border: 1px solid var(--stroke);
+    padding: 16px;
+}
+
+.form-modal .form-input input:focus-visible, .form-modal .form-input textarea:focus-visible{
+    outline: none;
+}
+
+.form-modal .form-buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-modal .form-buttons button{
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-modal .form-buttons .btn-stroke{
+    color: var(--small-color);
+    margin-right: 8px;
+    background-color: var(--secundary-background);
+    border: 1px solid var(--stroke);
+}
+
+.form-modal .form-buttons .btn-primary{
+    color: var(--stroke);
+    background-color: var(--primary-color);
+    border: none;
+}
